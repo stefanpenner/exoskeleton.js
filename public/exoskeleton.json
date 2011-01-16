@@ -1,0 +1,36 @@
+{
+  "name":     "App",
+  "version":  "0.1.1",
+  "author":   "Stefan Penner",
+
+  "boot": [
+    "boot.coffee"
+  ],
+
+  "controllers": [
+    "hello_controller.coffee"
+  ],
+
+  "views": [
+    "todos/form.coffee",
+    "layouts/application.coffee"
+  ],
+
+  "templates": [
+  
+  ],
+
+  "models": [
+    "todo.coffee"
+  ],
+
+  "helpers": [
+
+  ],
+
+  "lib": [
+    "jquery.js",
+    "underscore.js",
+    "backbone.js"
+  ]
+}

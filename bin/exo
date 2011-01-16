@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require File.expand_path('../../',__FILE__) + '/lib/exoskeleton'
+
+begin
+  Exoskeleton::CLI.start
+rescue Interrupt => e
+  puts "\nQuitting..."
+  exit 1
+end
